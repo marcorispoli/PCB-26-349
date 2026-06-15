@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/12/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/15/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -30,62 +30,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\se26-349-0.dsn")
-      (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\library.olb")
-      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1" "INVERTER_B"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn"
+         "SCHEMATIC1" "INVERTER_A"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 294 0 888"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1294 24 929")
-        (Scroll "-51 -8")
-        (Zoom "119")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_PULSES"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1294 24 929")
-        (Scroll "0 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_A"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1294 24 929")
-        (Scroll "0 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_B"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1294 24 929")
-        (Scroll "-51 -8")
-        (Zoom "119")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MAIN_SWITCH")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 426 0 888"))
+      (Tab 0)))
   (MPSSessionName "marco")
   (PartMRUSelector
     (OFFPAGELEFT-L
