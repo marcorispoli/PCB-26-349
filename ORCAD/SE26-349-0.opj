@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/22/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/24/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -62,163 +62,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\se26-349-0.dsn")
+      (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 269 0 911"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-170 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_HVREF"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-170 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_PULSES"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1570 24 929")
-        (Scroll "-153 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_HVENA"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-170 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "HVBUS_READ"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-136 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_UC3841"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-170 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MAIN_SWITCH"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-136 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MASSMETRO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1570 24 929")
-        (Scroll "-153 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1570 24 929")
-        (Scroll "-153 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PWR_MONITORING"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1570 24 929")
-        (Scroll "-153 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "STARTER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1570 24 929")
-        (Scroll "-153 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SYNCH_INTERFACE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-170 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CAN_BUS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1570 24 929")
-        (Scroll "-136 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MICRO")))
-  (MPSSessionName "marco")
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
+      (Tab 0)))
+  (MPSSessionName "user")
   (PartMRUSelector
     (PLVA650A,215
       (FullPartName "PLVA650A,215.Normal")
