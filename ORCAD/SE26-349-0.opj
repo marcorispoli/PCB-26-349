@@ -1,9 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[07/29/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/01/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
     (File ".\se26-349-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -87,8 +89,10 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\se26-349-0.dsn")
       (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "D:\GIT\HW\PCB349\ORCAD\library.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1" "SINOTTICO"))
+      (Select "Design Resources" ".\se26-349-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -98,38 +102,28 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-35 3")
-        (Zoom "123")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INVERTER_PULSES"))
+      (Page "POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-55 -8")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
         (Zoom "119")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INVERTER_HVREF"))
+      (Page "CAN_BUS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-19 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MASSMETRO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-55 -8")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
         (Zoom "119")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
@@ -138,29 +132,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-19 -2")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MICRO"))
+      (Page "STARTER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-35 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SINOTTICO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 24 929")
-        (Scroll "-19 -2")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
@@ -168,14 +152,112 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1301 24 929")
-        (Scroll "-1 21")
-        (Zoom "107")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "HVBUS_READ"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER_HVENA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER_HVREF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER_PULSES"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER_UC3841"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAIN_SWITCH"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MASSMETRO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MICRO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PWR_MONITORING"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SINOTTICO")))
   (PartMRUSelector
+    (GND_EARTH
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10X2_6"
+      (FullPartName "HEADER 10X2_6.Normal")
+      (LibraryName
+         "F:\PROGETTI\PCB-14-240 SCHEDA SERVIZI\HW\PCB-14-240-4\PCB-14-240-3.DSN")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
