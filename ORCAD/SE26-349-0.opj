@@ -1,9 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[07/03/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/02/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
     (File ".\se26-349-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -69,6 +71,7 @@
     (BOM_View_Output "FALSE")
     (FALSE)
     (FALSE)
+    (FALSE)
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (Display_Online_DRC_Results "FALSE"))
@@ -84,15 +87,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\se26-349-0.dsn")
+      (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "D:\GIT\HW\PCB349\ORCAD\library.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-26-349\orcad\se26-349-0.dsn"
-         "SCHEMATIC1" "INVERTER_UC3841"))
+      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1" "CAN_BUS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -102,49 +102,61 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1226 24 929")
-        (Scroll "-17 -8")
-        (Zoom "119")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "0 -10")
+        (Zoom "102")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "CAN_BUS"))
+      (Page "INVERTER_UC3841"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1226 24 929")
-        (Scroll "-17 -8")
-        (Zoom "119")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-1 -14")
+        (Zoom "101")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "EXTERNAL_SYNC"))
+      (Page "POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1226 24 929")
-        (Scroll "-17 -8")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
         (Zoom "119")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "INVERTER_PULSES"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1226 24 929")
-        (Scroll "-5 -18")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1231 24 929")
+        (Scroll "-20 -8")
+        (Zoom "119")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INVERTER_UC3841")))
-  (PartMRUSelector)
-  (MPSSessionName "marco")
+      (Page "CAN_BUS")))
+  (PartMRUSelector
+    (GND_EARTH
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10X2_6"
+      (FullPartName "HEADER 10X2_6.Normal")
+      (LibraryName
+         "F:\PROGETTI\PCB-14-240 SCHEDA SERVIZI\HW\PCB-14-240-4\PCB-14-240-3.DSN")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5X2_5"
+      (FullPartName "HEADER 5X2_5.Normal")
+      (LibraryName
+         "D:\WORK\MT\PROJECTS\PCB-22-305 (SCHEDA DISTRIBUZIONE C-ARM - Z190)\ORCAD\22-305-0.DSN")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
