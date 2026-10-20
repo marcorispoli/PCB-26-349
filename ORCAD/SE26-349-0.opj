@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/10/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/20/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -69,7 +69,8 @@
     (FALSE)
     (FALSE)
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\se26-349-0.drc"
@@ -85,23 +86,58 @@
       (Path "Design Resources" ".\se26-349-0.dsn")
       (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1" "MICRO"))
+      (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1"
+         "INVERTER_HVENA"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 553 0 530"))
+        (Placement "44 2 3 -1 -1 0 0 0 553 0 530"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 972 26 599")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
+        (Scroll "-163 -8")
+        (Zoom "119")
         (Occurrence "/"))
-      (Path "D:\01.LAVORI IN CORSO\METALTRONICA\26-349-0\SE26-349-0.DSN")
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "EXTERNAL_SYNC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
+        (Scroll "-127 -2")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MASSMETRO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
+        (Scroll "-109 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1517 24 929")
+        (Scroll "-109 21")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER_HVENA")))
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "marco")
