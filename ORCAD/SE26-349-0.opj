@@ -1,5 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/10/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -66,7 +67,10 @@
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
     (FALSE)
-    (FALSE))
+    (FALSE)
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\se26-349-0.drc"
       (Type "Report"))
@@ -100,4 +104,13 @@
       (Page "POWER")))
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "Osvaldo_Collalti"))
+  (MPSSessionName "marco")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
