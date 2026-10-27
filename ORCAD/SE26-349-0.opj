@@ -87,7 +87,7 @@
       (Path "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources" ".\se26-349-0.dsn" "SCHEMATIC1"
-         "INVERTER_HVENA"))
+         "PWR_MONITORING"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -97,50 +97,16 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
-        (Scroll "-163 -8")
-        (Zoom "119")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1245 24 712")
+        (Scroll "-14 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
+      (Path "D:\GIT\HW\PCB349\ORCAD\SE26-349-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "EXTERNAL_SYNC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
-        (Scroll "-127 -2")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MASSMETRO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1517 24 929")
-        (Scroll "-109 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1517 24 929")
-        (Scroll "-109 21")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-26-349\ORCAD\SE26-349-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INVERTER_HVENA")))
+      (Page "PWR_MONITORING")))
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "marco")
+  (MPSSessionName "user")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
